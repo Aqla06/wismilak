@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saran</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+    <button id="toggleSidebar" class="toggle-sidebar">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <div class="logo">
+        <img src="assets/Wismilak_Group.jpg" alt="Logo Wismilak" class="avatar">
+        <span>PT. Wismilak Inti Makmur tbk</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="saran.html">Saran</a>
+    </nav>
+
+    <div class="header-right">
+        <button class="btn-share">
+            <i class="fa-solid fa-download"></i>
+            Download
+        </button>
+
+    </div>
+
+</header>
+
+
+<!--================ MAIN =================-->
+
+<div class="container">
+
+<!--============== SIDEBAR ==============-->
+
+<aside class="sidebar">
+
+<h3>Slides</h3>
+
+<div class="thumb active" data-slide="1">
+    <span>01</span>
+    <p>Saran</p>
+
+</div>
+
+<div class="thumb" data-slide="2">
+
+<span>02</span>
+
+<p>Gambar Alur</p>
+
+</div>
+
+<div class="thumb" data-slide="3">
+
+<span>03</span>
+
+<p>Desain</p>
+
+</div>
+
+<div class="thumb" data-slide="4">
+
+<span>04</span>
+
+<p>Kelamahan</p>
+
+</div>
+
+<div class="thumb" data-slide="5">
+
+<span>05</span>
+
+<p>Kelebihan</p>
+
+</div>
+
+</aside>
+
+<!--============== PRESENTATION ==============-->
+
+<main class="presentation">
+
+<section class="slide active">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>Saran Saya</h1>
+<p>
+Mengusulkan pengembangan sistem informasi produksi berbasis digital yang terintegrasi dengan fitur pemindaian (scan) barcode pada setiap box hasil produksi.
+Sistem ini mencakup pencatatan waktu hasil produksi, jumlah hasil produksi, identitas operator dan asisten operator, serta status produksi.
+Setiap box yang telah memiliki barcode dapat dipindai (scan) sehingga data produksi tercatat secara otomatis dan akurat di dalam sistem tanpa perlu pencatatan manual.
+Seluruh data yang telah diinput dapat langsung diakses oleh Supervisor dan Manager melalui dashboard monitoring secara real-time, sehingga proses pemantauan hasil produksi menjadi lebih cepat, transparan, dan efisien.
+Selain itu, sistem ini memudahkan pelacakan (tracking) setiap box produksi berdasarkan barcode, mengurangi risiko kesalahan pencatatan (human error), mempercepat proses pelaporan, mengurangi penggunaan dokumen fisik, serta menyediakan riwayat data produksi yang dapat digunakan untuk analisis dan evaluasi kinerja.
+
+</p>
+<button class="start-btn">
+Mulai Lihat Alur
+</button>
+
+</div>
+
+</section>
+
+<section class="slide">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>Gambar Alur</h1>
+
+
+</div>
+
+</section>
+
+<section class="slide">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>Desain</h1>
+
+<p>
+
+Isi slide ketiga.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="slide">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>Kelehaman</h1>
+
+<p>
+
+Isi slide keempat.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="slide">
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>Kelebihan</h1>
+
+</div>
+
+</section>
+</main>
+
+</div>
+
+<!--============== FOOTER ==============-->
+
+<div class="bottom-bar">
+
+<div class="progress">
+
+<div class="progress-bar"></div>
+
+</div>
+
+<div class="navigation">
+
+<button id="prev">
+
+<i class="fa-solid fa-arrow-left"></i>
+
+Previous
+
+</button>
+
+<span id="slide-number">
+
+1 / 5
+
+</span>
+
+<button id="next">
+
+Next
+
+<i class="fa-solid fa-arrow-right"></i>
+
+</button>
+
+</div>
+
+</div>
+
+<script src="saran.js"></script>
+
+</body>
+</html>
